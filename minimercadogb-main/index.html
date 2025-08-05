@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Mercadinho SESI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Mercadinho SESI</h1>
+  <div id="produtos">
+    <div class="produto">
+      <p>Banana - R$2,00</p>
+      <button onclick="adicionarAoCarrinho('Banana', 2)">Adicionar</button>
+    </div>
+    <div class="produto">
+      <p>Sabão - R$5,00</p>
+      <button onclick="adicionarAoCarrinho('Sabão', 5)">Adicionar</button>
+    </div>
+  </div>
+
+  <h2>Carrinho</h2>
+  <ul id="carrinho"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
